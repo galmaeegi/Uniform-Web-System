@@ -1,0 +1,42 @@
+.banner {
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	background-color: #055B0C;
+	margin-left:-10px;
+	margin-top: -10px;
+	height: 20%;
+	
+}
+.phinmalogo {
+	margin: auto;
+	float: left;
+	
+}
+.ahrefdesign a {
+  color: white;
+  text-decoration: none;
+  background-color: #055B0C;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  font-size: 15px;
+
+}
+.about {
+	border: 1px solid white;
+	background-color: green;
+	padding-left:23px;
+	padding-right:23px;
+	width: 50%;
+	margin-left: 24%;
+}
+
+
+.ahrefdesign a:hover {
+  background-color: green;
+}
+
+.ahrefdesign a:active {
+  background-color: #F6D207;
+}

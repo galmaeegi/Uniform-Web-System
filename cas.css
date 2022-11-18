@@ -1,0 +1,179 @@
+
+.banner {
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	background-color: #055B0C;
+	margin-left:-10px;
+	margin-top: -10px;
+	height: 20.5%;
+	
+}
+.phinmalogo {
+	margin: auto;
+	float: left;
+	height: 23px;
+	
+}
+.ahrefdesign a {
+  color: white;
+  text-decoration: none;
+  background-color: #055B0C;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  font-size: 15px;
+
+}
+.ahrefdesign a:link {
+  color: white;
+}
+.ahrefdesign a:hover {
+  background-color: green;
+}
+
+.ahrefdesign a:active {
+  background-color: #F6D207;
+}
+.image {
+	display: inline-block;
+	position: relative;
+	margin-left: 470px;
+	margin-bottom: 30px;
+
+	
+	
+}
+.overlay {
+	position: absolute;
+	transition: all .3s ease;
+	opacity: 0;
+	background-color:#208B38;
+}
+.overlayLeft {
+	height:100%;
+	width: 0;
+	top: 0;
+	left: 0;
+}
+
+.image:hover .overlay{
+	opacity: 1;
+}
+.image:hover .overlayLeft{
+	width:100%;
+}
+
+.text {
+	color: white;
+	font-family: calibri;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 15px;
+	text-align:justify;
+	font-weight: bold;	
+}
+p {
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+}
+.parallax {
+
+  background-image: url("cas.jpg");
+  height: 200px;
+  width: 500%;	
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+.parallax2 {
+
+  background-image: url("cas.jpg");
+  height: 500px;
+  width: 500%;	
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+.caption span.border {
+    background-color: #055B0C;
+    color: #fff;
+    padding: 20px;
+    letter-spacing: 9px;
+	font: 400 50px/1.8 "Lato", sans-serif;
+	margin-top: 40px;
+	margin-left: 450px;
+	position: absolute;
+	width: 30%;
+	text-align: center;
+	font-weight: bold;
+	background-color:transparent
+}
+.ahrefdesign a:link {
+  color: white;
+  text-decoration: none;
+}
+.ahrefdesign a:hover {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.ahrefdesign a:active {
+  background-color: #F6D207;
+  text-decoration: none;
+}
+.deptbg {
+	display:block;
+}
+.button {
+  border-radius: 4px;
+  background-color: #B29D00;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px 23;
+  width: 300px;
+  transition: all 0.10s;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: 30px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+a {
+	font-family: calibri;
+	padding: 2px;
+	color: white;
+	
+}
